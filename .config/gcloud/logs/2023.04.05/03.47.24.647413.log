@@ -1,0 +1,33 @@
+2023-04-05 03:47:24,649 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-04-05 03:47:24,651 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2023-04-05 03:47:24,653 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2023-04-05 03:47:24,658 DEBUG    google.auth.transport.requests Making request: GET http://192.168.10.5/computeMetadata/v1/instance/service-accounts/451171757262-compute@developer.gserviceaccount.com/?recursive=true
+2023-04-05 03:47:24,660 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): 192.168.10.5:80
+2023-04-05 03:47:24,660 DEBUG    urllib3.connectionpool http://192.168.10.5:80 "GET /computeMetadata/v1/instance/service-accounts/451171757262-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 145
+2023-04-05 03:47:24,661 DEBUG    google.auth.transport.requests Making request: GET http://192.168.10.5/computeMetadata/v1/instance/service-accounts/451171757262-compute@developer.gserviceaccount.com/token
+2023-04-05 03:47:24,663 DEBUG    urllib3.connectionpool http://192.168.10.5:80 "GET /computeMetadata/v1/instance/service-accounts/451171757262-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 1084
+2023-04-05 03:47:24,705 DEBUG    root            Chosen display Format:default json
+2023-04-05 03:47:24,705 INFO     root            Display format: "default json"
+2023-04-05 03:47:24,706 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "451171757262-compute@developer.gserviceaccount.com",
+        "disable_usage_reporting": "True",
+        "project": "stock-predict-380701"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.c.b0Aaekm1L9gAr2sz3civxlvlkswCy7nm3t-gdzDSjZqg2M-jJjaTGBSktASlkyojBXbWgDLfune7PoIl89MHdvRkK09J7d5mp-DJq-1itzQE7xM3A6OFxGe5r-kUHchKi1i0EeNXj0AxzoqkxplUPAdvOFxMmt3Th8bchh240-l4oXgbqy7ABlSGZll4RhAPvlhq3KIFQPA0_crx6ykGylpalKYSDyvxN3kSSTVuKUlKNWiC7KWrwFYMWeom0QpcrhBCQoOiwP1Kr0i_d5lU5JCS-kbBdaUaBpSMzsyVP8kB6OSwAABe9pojPbqqNbixNQguZet79eQop45q6TkQT347Dr-WpmcVqlkmXxdSz19JrkW0BztMpQ-ljS63zMYu-zrfmyv5ORbd_83l8qx8F_wB1rYo7Oeva7IkhZRwzmrxWnmY865FtYSzYZj5a-Ir29nekwnRd06Y4_fe3t0m6y0MFJQ7OBWcMqpmJZ5eYkMtaxZYz7bQSBr4eYWQ21pbwyp5t_z73dhF1Ils-M9OwkisehM0JZ6hSawkx6I6ugUqmfgiYz7Fv1BcyoX3llx2fcyVFM9hdMJnW_YM8Z-MM37X_nF1gb72vUsctnwqWWtrh2fk3hde9x10zweVWpBfUcgfZmbweg29wnv_ytJVJRfVI4OZw4b1X4o209vBUYBijg3ojeS8OhpoRdzrlocQfpYY6wurBSlfpuWBJyQJ7UibyZdFSUzkXzMpQjrOwZ7YMwrl1vyhJ6q_2kl4zaVdt27cgUFvofB7Vy36hzXtaRFgk0vuIoR6hsgB3MJYjxY-3qnobrce9fs7s0g6f9ff2bY38b_sOk1n11kllmljx5JhJgtfQqevz5h7S82qJaJ97Vt9slU60frYRQJlkOy4vRWBxs-zZiWwvXURlpU2ucjmJgFWZmlxfF33WX9d0W0_iFw6Bx-jO2edXq_78QmIIYY6bb-WSS4mym23c5FSwUso50X9jq3Fk96j9394jMx3gztnrwiWublnh",
+    "id_token": null,
+    "token_expiry": "2023-04-05T04:29:31Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/jupyter/.config/gcloud/config_sentinel"
+  }
+}
+2023-04-05 03:47:24,706 INFO     ___FILE_ONLY___ 
+
+2023-04-05 03:47:24,706 DEBUG    root            SDK update checks are disabled.
